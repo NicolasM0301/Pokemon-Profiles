@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Pokémon Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="generate-btn" class="generate-btn">
+        Generate Random Pokémon
+      </button>
+      <div id="pokemon-card" class="pokemon-card hidden">
+        <img
+          id="pokemon-image"
+          src=""
+          alt="Pokemon Image"
+          class="pokemon-image"
+        />
+        <h2 id="pokemon-name" class="pokemon-name"></h2>
+        <p><strong>ID:</strong> <span id="pokemon-id"></span></p>
+        <p><strong>HP:</strong> <span id="pokemon-hp"></span></p>
+        <p><strong>Attack:</strong> <span id="pokemon-atk"></span></p>
+        <p><strong>Defense:</strong> <span id="pokemon-def"></span></p>
+        <p><strong>Speed:</strong> <span id="pokemon-spe"></span></p>
+        <div id="pokemon-types" class="pokemon-types"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
